@@ -1,0 +1,207 @@
+.top-wrap.top-wrap {
+    background: url("../images/sidebox_bg.png") repeat-x;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 33px;
+    border: 1px solid #ccc;
+}
+.main-nav {
+    clear: both;
+    height: 32px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.main-nav ul li {
+    float: left;
+    line-height: 32px;
+    padding: 0 15px;
+}
+.main-nav li a {
+    color: #fff;
+    font-weight: bold;
+	text-decoration:none;
+}
+li {
+    list-style: none outside none;
+}
+#home {
+    background: url("../images/home-green.png") no-repeat;
+    color: #EFEFEF;
+    float: left;
+    height: 26px;
+	margin-top: 2px;
+    width: 25px;
+	font-size: 0px;
+}
+.nav-li-hover, .main-nav > ul > li:hover, .main-nav ul li.selected {
+    background-color:#55620D;
+    border-left: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+    padding: 0 14px !important;
+}
+.main-nav ul .secp-nav {
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid white;
+    height: 20px;
+    margin: 7px 10px 0;
+    padding: 0;
+}
+.main-nav ul .secp-nav:hover {
+    padding: 0 !important;
+}
+.main-nav > ul > li:hover .zingsubmenu_multicol, .main-nav > ul > li:hover .zingsubmenu {
+    display: block;
+}
+.main-nav .zingsubmenu {
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    line-height: 29px;
+    max-width: 200px;
+    min-width: 160px;
+    overflow: auto;
+    padding: 1px;
+    position: absolute;
+    z-index: 1000000;
+}
+.main-nav .zingsubmenu li {
+    border-top: 1px solid #E2E2E2;
+    display: block;
+    float: none;
+    font-weight: bold;
+    font-weight: normal;
+    line-height: 16px;
+    padding: 0;
+    vertical-align: bottom;
+}
+.main-nav .zingsubmenu li:first-child {
+    border-top: 0 none;
+}
+.main-nav .zingsubmenu li a {
+    border-left: 0 none;
+    border-right: 0 none;
+    display: block;
+    font-weight: normal;
+    padding: 5px 8px;
+    text-shadow: none;
+}
+.main-nav .zingsubmenu li a:hover {
+    background-position: left -418px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px;
+}
+.main-nav .zingsubmenu_multicol {
+    background-color: #55620D;
+    border: 1px solid #DBDBDB;
+    left: 0;
+    overflow: auto;
+    padding: 1px;
+    position: absolute;
+    top: 32px;
+    z-index: 1000000;
+}
+.main-nav .zingsubmenu_singlecol {
+    position: absolute;
+    top: 32px;
+}
+.subcol {
+    border-left: 1px solid #DDDDDD;
+    float: left;
+    overflow: hidden;
+}
+.subcol.first-child, .subcol:first-child {
+    border-left: 0 none;
+}
+.subcol h2 {
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #EBEBEB;
+    color: #333333;
+    font-size: 12px;
+    line-height: normal;
+    padding: 10px 0;
+    text-align: center;
+}
+.subcol ul {
+    min-width: 150px;
+    overflow: hidden;
+    margin: 0;
+}
+.subcol ul li {
+    border-bottom: 1px solid #EBEBEB;
+    display: block;
+    float: none;
+    line-height: 29px;
+    padding: 0;
+}
+.subcol ul li a {
+    display: block;
+    font-weight: normal;
+    padding: 0 8px;
+    text-shadow: none;
+	text-decoration:none;
+}
+.subcol ul li:last-child {
+    border-bottom: 0 none;
+}
+.subcol ul li a:hover {
+    background: url( "../images/menu/grad2.gif" ) #F0B963;
+    border: 0 none;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0 8px;
+}
+.subcol .subinner_item li {
+    border-right: 1px solid #EBEBEB;
+    display: inline;
+    float: left;
+}
+.music_submenu {
+    width: 976px;
+}
+.songcol_list {
+    width: 412px;
+}
+.main-nav .songcol_list.last-child {
+    width: 150px;
+}
+.subcol .subinner_item ul {
+    white-space: nowrap;
+    width: 415px;
+}
+.subcol .subinner_item li a {
+    border: 0 none;
+    display: inline;
+    float: left;
+    width: 121px;
+}
+.zingarrowuser {
+    background-position: left -1296px;
+    display: inline;
+    float: right;
+    height: 8px;
+    margin: 9px 5px 0 6px;
+    width: 12px;
+}
+.boxshadow_popup {
+    color: #333333;
+    position: absolute;
+    right: -8px;
+    top: 32px;
+    width: 320px;
+    z-index: 1000000;
+}
+.popup_edge_shadow {
+    padding-right: 8px;
+}
+.popup_border {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #01548D;
+    line-height: 16px;
+    position: relative;
+    text-align: left;
+}
+.none {
+    display: none !important;
+}

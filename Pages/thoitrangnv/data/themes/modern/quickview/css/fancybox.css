@@ -1,0 +1,46 @@
+/* CSS Document */
+body div.fancybox-wrap{
+	position:relative;
+	z-index:9999;
+	background:url('../images/quick_bottom_875x58.png') no-repeat bottom left;
+	padding-bottom:58px;
+	width:875px!important;
+}
+div.fancybox-wrap div.fancybox-skin{
+	border-left:3px solid #bcbcbc;
+	background:url(../images/quick_top_1x405.jpg) repeat-x top left #fff;
+	padding:38px 0 0 0!important;
+	margin-right:13px;
+}
+div.fancybox-outer{
+	background:url(../images/quick_right_12x1.png) repeat-y top right;
+	width:870px!important;
+}
+div.fancybox-close{
+	background:url(../images/quick_top_right_45x38.png) no-repeat top right;
+	position:absolute;
+	height:38px;
+	width:45px;
+	right:2px;
+	top:0;
+	cursor:pointer;
+}
+div.fancybox-wrap div.fancybox-inner{
+	width:810px!important;
+	height:510px!important;
+	padding-left:25px;
+	margin-top:-34px;
+	/*border-left:1px solid #fff;*/
+}
+.fancybox-tmp iframe, .fancybox-tmp object {
+	vertical-align: top;
+	padding: 0;
+	margin: 0;
+}
+div.pquick_bg{
+	position:absolute;
+	bottom:-58px;
+	left:0;
+	width:875px;
+	height:58px;
+}

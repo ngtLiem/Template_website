@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plan>
+  <id>6</id>
+  <lang></lang>
+  <title>ADV4</title>
+  <form>sequential</form>
+  <width>230</width>
+  <height>300</height>
+  <banners>
+    <banners_item>
+      <id>7</id>
+      <title>ADV4</title>
+      <clid>0</clid>
+      <file_name>3afdf096dcf8c6e2069e1e3ce0fda2f8.jpg</file_name>
+      <file_ext>jpg</file_ext>
+      <file_mime>image/jpeg</file_mime>
+      <file_width>230</file_width>
+      <file_height>300</file_height>
+      <file_alt></file_alt>
+      <file_click></file_click>
+    </banners_item>
+  </banners>
+</plan>
